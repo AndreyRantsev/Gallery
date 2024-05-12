@@ -1,0 +1,33 @@
+.burger{
+    @include btn(120px, 200px);
+    
+    &__line{
+        @include icon(8px, 60px);
+
+        &:before{
+        @include icon-before(8px, 60px, -20px);
+        }
+
+        &:after{
+        @include icon-after(8px, 60px, 20px);
+        }
+    }
+    
+    &:hover {
+        cursor: pointer;
+    }
+}
+.burger.open {
+    .burger__line{
+    transition-duration: 0.5s;
+    transform: rotateZ(180deg);
+    
+    &:before{
+        transform: rotateZ(45deg) scaleX(0.75) translate(20px, -6px);
+    }
+
+    &:after{
+        transform: rotateZ(-45deg) scaleX(0.75) translate(20px, 6px);
+    }
+}
+}
