@@ -1,9 +1,7 @@
-@mixin btn($left, $top) {
-    position: absolute;
+@mixin btn() {
+    position: relative;
     width: 60px;
     height: 60px;
-    top: $top;
-    left: $left;
     transition-duration: 0.5s;
   }
   
@@ -13,7 +11,7 @@
     height: $height;
     width: $width;
     top: 30px;
-    background-color: $dark;
+    background-color: $contextColor;
   }
   
   @mixin icon-before($height, $width, $top) {
@@ -21,7 +19,7 @@
     position: absolute;
     width: $width;
     height: $height;
-    background-color: $dark;
+    background-color: $contextColor;
     content: "";
     top: $top;
   }
@@ -31,7 +29,7 @@
     position: absolute;
     width: $width;
     height: $height;
-    background-color: $dark;
+    background-color: $contextColor;
     content: "";
     top: $top;
   }
