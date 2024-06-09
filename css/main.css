@@ -318,6 +318,7 @@ body {
   width: 60px;
   top: 30px;
   background-color: #61E294;
+  transform: translateY(-50%);
 }
 .btn6 .icon:before {
   transition-duration: 0.5s;

@@ -12,6 +12,7 @@
     width: $width;
     top: 30px;
     background-color: $contextColor;
+    transform: translateY(-50%);
   }
   
   @mixin icon-before($height, $width, $top) {
