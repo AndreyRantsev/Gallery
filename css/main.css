@@ -382,8 +382,17 @@ body {
   border: none;
   outline: none;
 }
+.form .search-icon {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.5s;
+}
 .form:hover .form__search {
   transform: translateX(0);
+}
+.form:hover .search-icon {
+  transform: rotate(90deg);
 }
 
 .header__content {
