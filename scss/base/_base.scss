@@ -1,3 +1,8 @@
 body{
     background-color: $bgBody;
 }
+.container{
+    max-width: 1440;
+    margin: o auto;
+    padding: 0 40px;
+}

@@ -299,6 +299,12 @@ body {
   background-color: #2D3142;
 }
 
+.container {
+  max-width: 1440;
+  margin: o auto;
+  padding: 0 40px;
+}
+
 .btn6 {
   position: relative;
   width: 60px;
@@ -351,10 +357,12 @@ body {
   overflow: hidden;
   display: flex;
   justify-content: flex-end;
+  border-radius: 50px;
 }
 .form__search {
   width: 250px;
   height: 50px;
+  transition: 0.5s;
   border-radius: 40px;
   transform: translateX(100%);
   outline: none;
@@ -372,6 +380,9 @@ body {
   background-color: #61E294;
   border: none;
   outline: none;
+}
+.form:hover .form__search {
+  transform: translateX(0);
 }
 
 .header__content {

@@ -4,9 +4,11 @@
   overflow: hidden;
   display: flex;
   justify-content: flex-end;
+  border-radius: 50px;
   &__search{
     width: 250px;
     height: 50px;
+    transition: 0.5s;
     border-radius: 40px;
     transform: translateX(100%);
     outline: none;
@@ -24,5 +26,11 @@
     background-color: $contextColor;
     border: none;
     outline: none;
+  }
+  &:hover{
+    .form__search{
+      transform: translateX(0);
+      
+    }
   }
 }
