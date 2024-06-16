@@ -1,0 +1,36 @@
+.mobile-menu {
+    padding: 0 60px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: $contextColor;
+}
+.mobile-menu__list {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+.mobile-menu__item {
+}
+.button-search-template {
+    min-width: 220px;
+    padding: 5px 10px;
+    background-color: $elementsColor;
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+}
+.button-search-template__img {
+    display: inline-block;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.button-search-template__title {
+    color: $bgBody;
+    font-size: 24px;
+}

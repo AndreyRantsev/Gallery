@@ -6,3 +6,20 @@ body{
     margin: o auto;
     padding: 0 40px;
 }
+ul, ol, line{
+    list-style: none;
+}
+button{
+    background: inherit;
+    border: none;
+}
+img, svg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+*, * > * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
